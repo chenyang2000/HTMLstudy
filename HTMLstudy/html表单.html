@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        Name : <input type="text" name="name"><br>
+        Age : <input type="text" name="age">
+    </form>
+
+    <p><b>注意：</b> 表单本身是不可见的。并且注意一个文本字段的默认宽度是20个字符。</p>
+    <form action="">
+        firstname : <input type="text" name="firstname">
+        <br>
+        password : <input type="password" name="pwd"> <br>
+        <input type="radio" name="sex" value="male">Male <br>
+        <input type="radio" name="sex" value="female">Female <br>
+        <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+        <input type="checkbox" name="vehicle" value="Car">I have a car
+    </form>
+
+    <br />
+    <form name="input" action="/statics/demosource/html_form_action.php" method="get">
+        Username: <input type="text" name="user">
+        <input type="submit" value="Submit">
+    </form>
+    <form action="">
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+
+    <form action="">
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <textarea rows="10" cols="30">
+        我是一个文本框。
+    </textarea>
+    <form action="">
+        <input type="button" value="Hello world!">
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>Personal information:</legend>
+            Name: <input type="text" size="30"><br>
+            E-mail: <input type="text" size="30"><br>
+            Date of birth: <input type="text" size="10">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
